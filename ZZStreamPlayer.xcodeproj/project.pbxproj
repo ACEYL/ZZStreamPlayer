@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49C584531CC4AEA100E79E33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C584521CC4AEA100E79E33 /* main.m */; };
+		49C584561CC4AEA100E79E33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C584551CC4AEA100E79E33 /* AppDelegate.m */; };
+		49C584591CC4AEA100E79E33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C584581CC4AEA100E79E33 /* ViewController.m */; };
+		49C5845C1CC4AEA100E79E33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C5845A1CC4AEA100E79E33 /* Main.storyboard */; };
+		49C5845E1CC4AEA100E79E33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49C5845D1CC4AEA100E79E33 /* Assets.xcassets */; };
+		49C584611CC4AEA100E79E33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C5845F1CC4AEA100E79E33 /* LaunchScreen.storyboard */; };
+		49C5846C1CC4AEA200E79E33 /* ZZStreamPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C5846B1CC4AEA200E79E33 /* ZZStreamPlayerTests.m */; };
+		49C584771CC4AEA200E79E33 /* ZZStreamPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C584761CC4AEA200E79E33 /* ZZStreamPlayerUITests.m */; };
+		49C584871CC4AF9800E79E33 /* ZZStreamPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C584861CC4AF9800E79E33 /* ZZStreamPlayerView.m */; };
+		49C584911CC4D61E00E79E33 /* ZZStreamFullSCreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C584901CC4D61E00E79E33 /* ZZStreamFullSCreenView.m */; };
+		49C584931CC4DDA300E79E33 /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C584921CC4DDA300E79E33 /* backButton.png */; };
+		49C5849A1CC4F9BC00E79E33 /* ZZStreamLoadHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C584991CC4F9BC00E79E33 /* ZZStreamLoadHud.m */; };
+		49C5849C1CC508A200E79E33 /* ks_stream_shared_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C5849B1CC508A200E79E33 /* ks_stream_shared_btn.png */; };
+		49C5849F1CC5092700E79E33 /* ks_stream_back_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C5849D1CC5092700E79E33 /* ks_stream_back_btn.png */; };
+		49C584A01CC5092700E79E33 /* ks_stream_fullscreen_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C5849E1CC5092700E79E33 /* ks_stream_fullscreen_btn.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49C584681CC4AEA200E79E33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49C584461CC4AEA100E79E33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49C5844D1CC4AEA100E79E33;
+			remoteInfo = ZZStreamPlayer;
+		};
+		49C584731CC4AEA200E79E33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49C584461CC4AEA100E79E33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49C5844D1CC4AEA100E79E33;
+			remoteInfo = ZZStreamPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49C5844E1CC4AEA100E79E33 /* ZZStreamPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZStreamPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C584521CC4AEA100E79E33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49C584541CC4AEA100E79E33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49C584551CC4AEA100E79E33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49C584571CC4AEA100E79E33 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		49C584581CC4AEA100E79E33 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		49C5845B1CC4AEA100E79E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49C5845D1CC4AEA100E79E33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49C584601CC4AEA100E79E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49C584621CC4AEA100E79E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49C584671CC4AEA200E79E33 /* ZZStreamPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZStreamPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C5846B1CC4AEA200E79E33 /* ZZStreamPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZStreamPlayerTests.m; sourceTree = "<group>"; };
+		49C5846D1CC4AEA200E79E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49C584721CC4AEA200E79E33 /* ZZStreamPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZStreamPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C584761CC4AEA200E79E33 /* ZZStreamPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZStreamPlayerUITests.m; sourceTree = "<group>"; };
+		49C584781CC4AEA200E79E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49C584851CC4AF9800E79E33 /* ZZStreamPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZStreamPlayerView.h; sourceTree = "<group>"; };
+		49C584861CC4AF9800E79E33 /* ZZStreamPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZStreamPlayerView.m; sourceTree = "<group>"; };
+		49C5848F1CC4D61E00E79E33 /* ZZStreamFullSCreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZStreamFullSCreenView.h; sourceTree = "<group>"; };
+		49C584901CC4D61E00E79E33 /* ZZStreamFullSCreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZStreamFullSCreenView.m; sourceTree = "<group>"; };
+		49C584921CC4DDA300E79E33 /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
+		49C584981CC4F9BC00E79E33 /* ZZStreamLoadHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZStreamLoadHud.h; sourceTree = "<group>"; };
+		49C584991CC4F9BC00E79E33 /* ZZStreamLoadHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZStreamLoadHud.m; sourceTree = "<group>"; };
+		49C5849B1CC508A200E79E33 /* ks_stream_shared_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ks_stream_shared_btn.png; sourceTree = "<group>"; };
+		49C5849D1CC5092700E79E33 /* ks_stream_back_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ks_stream_back_btn.png; sourceTree = "<group>"; };
+		49C5849E1CC5092700E79E33 /* ks_stream_fullscreen_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ks_stream_fullscreen_btn.png; sourceTree = "<group>"; };
+		49C584A21CC50CD900E79E33 /* ZZStreamPlayerKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZStreamPlayerKit.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49C5844B1CC4AEA100E79E33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C584641CC4AEA200E79E33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C5846F1CC4AEA200E79E33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49C584451CC4AEA100E79E33 = {
+			isa = PBXGroup;
+			children = (
+				49C584501CC4AEA100E79E33 /* ZZStreamPlayer */,
+				49C5846A1CC4AEA200E79E33 /* ZZStreamPlayerTests */,
+				49C584751CC4AEA200E79E33 /* ZZStreamPlayerUITests */,
+				49C5844F1CC4AEA100E79E33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49C5844F1CC4AEA100E79E33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49C5844E1CC4AEA100E79E33 /* ZZStreamPlayer.app */,
+				49C584671CC4AEA200E79E33 /* ZZStreamPlayerTests.xctest */,
+				49C584721CC4AEA200E79E33 /* ZZStreamPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49C584501CC4AEA100E79E33 /* ZZStreamPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				49C584841CC4AF6F00E79E33 /* Class */,
+				49C584541CC4AEA100E79E33 /* AppDelegate.h */,
+				49C584551CC4AEA100E79E33 /* AppDelegate.m */,
+				49C584571CC4AEA100E79E33 /* ViewController.h */,
+				49C584581CC4AEA100E79E33 /* ViewController.m */,
+				49C5845A1CC4AEA100E79E33 /* Main.storyboard */,
+				49C5845D1CC4AEA100E79E33 /* Assets.xcassets */,
+				49C5845F1CC4AEA100E79E33 /* LaunchScreen.storyboard */,
+				49C584621CC4AEA100E79E33 /* Info.plist */,
+				49C584511CC4AEA100E79E33 /* Supporting Files */,
+			);
+			path = ZZStreamPlayer;
+			sourceTree = "<group>";
+		};
+		49C584511CC4AEA100E79E33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49C584521CC4AEA100E79E33 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49C5846A1CC4AEA200E79E33 /* ZZStreamPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				49C5846B1CC4AEA200E79E33 /* ZZStreamPlayerTests.m */,
+				49C5846D1CC4AEA200E79E33 /* Info.plist */,
+			);
+			path = ZZStreamPlayerTests;
+			sourceTree = "<group>";
+		};
+		49C584751CC4AEA200E79E33 /* ZZStreamPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49C584761CC4AEA200E79E33 /* ZZStreamPlayerUITests.m */,
+				49C584781CC4AEA200E79E33 /* Info.plist */,
+			);
+			path = ZZStreamPlayerUITests;
+			sourceTree = "<group>";
+		};
+		49C584841CC4AF6F00E79E33 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				49C584881CC4AFCE00E79E33 /* image */,
+				49C584851CC4AF9800E79E33 /* ZZStreamPlayerView.h */,
+				49C584861CC4AF9800E79E33 /* ZZStreamPlayerView.m */,
+				49C5848F1CC4D61E00E79E33 /* ZZStreamFullSCreenView.h */,
+				49C584901CC4D61E00E79E33 /* ZZStreamFullSCreenView.m */,
+				49C584981CC4F9BC00E79E33 /* ZZStreamLoadHud.h */,
+				49C584991CC4F9BC00E79E33 /* ZZStreamLoadHud.m */,
+				49C584A21CC50CD900E79E33 /* ZZStreamPlayerKit.h */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		49C584881CC4AFCE00E79E33 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				49C584921CC4DDA300E79E33 /* backButton.png */,
+				49C5849D1CC5092700E79E33 /* ks_stream_back_btn.png */,
+				49C5849E1CC5092700E79E33 /* ks_stream_fullscreen_btn.png */,
+				49C5849B1CC508A200E79E33 /* ks_stream_shared_btn.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49C5844D1CC4AEA100E79E33 /* ZZStreamPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49C5847B1CC4AEA200E79E33 /* Build configuration list for PBXNativeTarget "ZZStreamPlayer" */;
+			buildPhases = (
+				49C5844A1CC4AEA100E79E33 /* Sources */,
+				49C5844B1CC4AEA100E79E33 /* Frameworks */,
+				49C5844C1CC4AEA100E79E33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZStreamPlayer;
+			productName = ZZStreamPlayer;
+			productReference = 49C5844E1CC4AEA100E79E33 /* ZZStreamPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49C584661CC4AEA200E79E33 /* ZZStreamPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49C5847E1CC4AEA200E79E33 /* Build configuration list for PBXNativeTarget "ZZStreamPlayerTests" */;
+			buildPhases = (
+				49C584631CC4AEA200E79E33 /* Sources */,
+				49C584641CC4AEA200E79E33 /* Frameworks */,
+				49C584651CC4AEA200E79E33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49C584691CC4AEA200E79E33 /* PBXTargetDependency */,
+			);
+			name = ZZStreamPlayerTests;
+			productName = ZZStreamPlayerTests;
+			productReference = 49C584671CC4AEA200E79E33 /* ZZStreamPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49C584711CC4AEA200E79E33 /* ZZStreamPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49C584811CC4AEA200E79E33 /* Build configuration list for PBXNativeTarget "ZZStreamPlayerUITests" */;
+			buildPhases = (
+				49C5846E1CC4AEA200E79E33 /* Sources */,
+				49C5846F1CC4AEA200E79E33 /* Frameworks */,
+				49C584701CC4AEA200E79E33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49C584741CC4AEA200E79E33 /* PBXTargetDependency */,
+			);
+			name = ZZStreamPlayerUITests;
+			productName = ZZStreamPlayerUITests;
+			productReference = 49C584721CC4AEA200E79E33 /* ZZStreamPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49C584461CC4AEA100E79E33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Migic_Z;
+				TargetAttributes = {
+					49C5844D1CC4AEA100E79E33 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2UTB3NPRNB;
+					};
+					49C584661CC4AEA200E79E33 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 49C5844D1CC4AEA100E79E33;
+					};
+					49C584711CC4AEA200E79E33 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 49C5844D1CC4AEA100E79E33;
+					};
+				};
+			};
+			buildConfigurationList = 49C584491CC4AEA100E79E33 /* Build configuration list for PBXProject "ZZStreamPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49C584451CC4AEA100E79E33;
+			productRefGroup = 49C5844F1CC4AEA100E79E33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49C5844D1CC4AEA100E79E33 /* ZZStreamPlayer */,
+				49C584661CC4AEA200E79E33 /* ZZStreamPlayerTests */,
+				49C584711CC4AEA200E79E33 /* ZZStreamPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49C5844C1CC4AEA100E79E33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C584611CC4AEA100E79E33 /* LaunchScreen.storyboard in Resources */,
+				49C5849C1CC508A200E79E33 /* ks_stream_shared_btn.png in Resources */,
+				49C584A01CC5092700E79E33 /* ks_stream_fullscreen_btn.png in Resources */,
+				49C584931CC4DDA300E79E33 /* backButton.png in Resources */,
+				49C5845E1CC4AEA100E79E33 /* Assets.xcassets in Resources */,
+				49C5845C1CC4AEA100E79E33 /* Main.storyboard in Resources */,
+				49C5849F1CC5092700E79E33 /* ks_stream_back_btn.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C584651CC4AEA200E79E33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C584701CC4AEA200E79E33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49C5844A1CC4AEA100E79E33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C584591CC4AEA100E79E33 /* ViewController.m in Sources */,
+				49C584561CC4AEA100E79E33 /* AppDelegate.m in Sources */,
+				49C584911CC4D61E00E79E33 /* ZZStreamFullSCreenView.m in Sources */,
+				49C5849A1CC4F9BC00E79E33 /* ZZStreamLoadHud.m in Sources */,
+				49C584531CC4AEA100E79E33 /* main.m in Sources */,
+				49C584871CC4AF9800E79E33 /* ZZStreamPlayerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C584631CC4AEA200E79E33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C5846C1CC4AEA200E79E33 /* ZZStreamPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C5846E1CC4AEA200E79E33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C584771CC4AEA200E79E33 /* ZZStreamPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49C584691CC4AEA200E79E33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49C5844D1CC4AEA100E79E33 /* ZZStreamPlayer */;
+			targetProxy = 49C584681CC4AEA200E79E33 /* PBXContainerItemProxy */;
+		};
+		49C584741CC4AEA200E79E33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49C5844D1CC4AEA100E79E33 /* ZZStreamPlayer */;
+			targetProxy = 49C584731CC4AEA200E79E33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49C5845A1CC4AEA100E79E33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49C5845B1CC4AEA100E79E33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49C5845F1CC4AEA100E79E33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49C584601CC4AEA100E79E33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49C584791CC4AEA200E79E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		49C5847A1CC4AEA200E79E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49C5847C1CC4AEA200E79E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ZZStreamPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aceyl.ZZStreamPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		49C5847D1CC4AEA200E79E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ZZStreamPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aceyl.ZZStreamPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		49C5847F1CC4AEA200E79E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZZStreamPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aceyl.ZZStreamPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZStreamPlayer.app/ZZStreamPlayer";
+			};
+			name = Debug;
+		};
+		49C584801CC4AEA200E79E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZZStreamPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aceyl.ZZStreamPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZStreamPlayer.app/ZZStreamPlayer";
+			};
+			name = Release;
+		};
+		49C584821CC4AEA200E79E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZZStreamPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aceyl.ZZStreamPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZZStreamPlayer;
+			};
+			name = Debug;
+		};
+		49C584831CC4AEA200E79E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZZStreamPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aceyl.ZZStreamPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZZStreamPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49C584491CC4AEA100E79E33 /* Build configuration list for PBXProject "ZZStreamPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C584791CC4AEA200E79E33 /* Debug */,
+				49C5847A1CC4AEA200E79E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49C5847B1CC4AEA200E79E33 /* Build configuration list for PBXNativeTarget "ZZStreamPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C5847C1CC4AEA200E79E33 /* Debug */,
+				49C5847D1CC4AEA200E79E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49C5847E1CC4AEA200E79E33 /* Build configuration list for PBXNativeTarget "ZZStreamPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C5847F1CC4AEA200E79E33 /* Debug */,
+				49C584801CC4AEA200E79E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49C584811CC4AEA200E79E33 /* Build configuration list for PBXNativeTarget "ZZStreamPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C584821CC4AEA200E79E33 /* Debug */,
+				49C584831CC4AEA200E79E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49C584461CC4AEA100E79E33 /* Project object */;
+}
